@@ -1,0 +1,15 @@
+.item-message{
+    display:flex;
+    justify-content: center
+}
+.item-message>.img-noTask {
+    height: 20rem;
+    width: 40%;
+    background: url(../../../../images/task-completed.png) no-repeat center /20rem;
+}
+.item-message>.text-noTask {
+    align-self: center
+}
+.item-message>.text-noTask>button{
+    color: #007bff
+}

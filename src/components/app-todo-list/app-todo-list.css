@@ -1,0 +1,7 @@
+.app-todo-list{
+    background-color: #fff;
+    width: 650px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column
+}

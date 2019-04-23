@@ -1,0 +1,20 @@
+
+.todo-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items:center
+    
+}
+.todo-item-name{
+     flex-grow: 1
+}
+.todo-item-btn{
+    margin: 0 0.5% 0 0.5%;
+    width: 35px ;
+    height: 35px;
+    padding: 0 !important
+}
+.done{
+    text-decoration: line-through;
+    background: #f5f5f5;
+}

@@ -1,0 +1,64 @@
+@keyframes animBar{
+     from{
+          opacity: 0;
+     }
+     to{
+          opacity: 100;
+     }
+}
+.userPanel{
+     display: flex;
+     height: 50px;
+     margin: 0 0 2% 0;
+     padding: 0;
+     background: #e9faff;
+     border-radius: .25rem;
+     align-items: center;
+}
+.userPanel li{
+     display: flex;
+     list-style: none;
+     cursor: pointer;
+     color: #4272d7;
+     align-items: center;
+     height: 100%;
+}
+.userPanel .exit{
+     margin: 0 1.5rem;
+}
+.userPanel .navBar-item{
+     margin: 0 .5rem;
+     padding: 0 .5rem 0 .5rem
+}
+.userPanel .navBar-item:hover {
+     animation: animBar 0.5s;
+     background: #4272d7;
+     color: #e9faff
+}
+.userPanel .navBar-item span{
+     margin:  0 .2rem
+}
+.icon {
+     font-size: 25px;
+     /* margin:  0 0.2rem 0 0 */
+}
+
+.exit{
+     transform: rotate(180deg);
+}
+
+/* .user-info{
+     display: flex;
+     align-items: center;
+     
+} */
+
+
+
+.form-create-task{
+     display: flex;
+}
+.btn-create-tasks {
+     margin: 0 0 0 0.5% !important;
+     width: 38.5%;
+}
